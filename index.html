@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+  <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+  <![endif]-->
+  <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+  <!--[if gt IE 8]><!--> <!--<![endif]-->
+<html lang="fr">
+<head>
+	<title>FreshCover</title>
+	<meta charset="utf-8">	
+	<link href="slider/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="holder">
+		<div id="header">
+			<div class="block_header_content">
+				<div class="logo">
+					<a href="#" title="FreshCover">FreshCover</a>
+					<p>Premium WordPress Web Blog</p>
+				</div> <!-- closed logo -->
+
+				<div class="header_top_navig">
+					<ul>
+						<li class="resp_hed_navig"><a href="#" title="Home"><i></i>Home</a></li>
+						<li><a href="#" title="Blog">Blog</a></li>
+						<li class="dropdown_top">
+							<a href="#" title="About us">About us</a>
+							<ul class="dropdown_inside">
+								<li><a href="#" title="Testimonial">Testimonial</a></li>
+								<li><a href="#" title="Portfolio">Portfolio</a></li>
+								<li><a href="#" title="Fresh works">Fresh works</a></li>
+								<li><a href="#" title="Style">Style</a></li>
+							</ul> <!-- closed dropdown_inside -->
+						</li> <!-- closed dropdown_top -->
+						<li><a href="#" title="Arhives">Arhives</a></li>
+						<li><a href="#" title="Contact us">Contact us</a></li>
+					</ul>
+				</div> <!-- header_top_navig -->
+			</div> <!-- closed block_header_content -->
+		</div> <!-- closed header -->
+
+		<div id="slider_navig">
+			<div class="block_slider_navig">
+				<div class="navig">
+					<ul>
+						<li class="resp_navig"><a href="#" title="Fonts"><i></i>Fonts</a></li>
+						<li><a href="#" title="Serif Fonts">Serif Fonts</a></li>
+						<li><a href="#" title="Freebies">Freebies</a></li>
+						<li><a href="#" title="Graphics">Graphics</a></li>
+						<li><a href="#" title="How-To">How-To</a></li>
+						<li><a href="#" title="Inspiration">Inspiration</a></li>
+						<li><a href="#" title="Reviews">Reviews</a></li>
+						<li><a href="#" title="Showcases">Showcases</a></li>
+						<li><a href="#" title="Tools">Tools</a></li>
+					</ul>
+				</div> <!-- closed navig -->
+			</div> <!-- closed block_slider_navig -->
+		</div> <!-- slider_top_navig -->
+
+		<div id="block_slider">
+			<div class="container_slider">
+			 <div class="container" id="home">
+			    <div class="row">
+			      <div class="col col-md-12">        
+			        <div class="flexslider">
+			          <ul class="slides">
+			            <li>
+			              <img src="img/templatemo_slide_2.png" alt="slide 1"/>
+			              <div class="flex-caption-bac">
+			              <p class="flex-caption">2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit varius rhoncus. Duis vel commodo diam. Donec ac risus eu mi auctor dignissim. Quisque sollicitudin tincidunt est, quis sodales est faucibus sed. Pellentesque dui nibh, aliquam pharetra pellentesque nec</p>
+			              </div>
+			            </li>
+			            <li>
+			              <img src="img/templatemo_slide_3.png" alt="slide 2"/>
+			              <div class="flex-caption-bac">
+			              <p class="flex-caption">3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit varius rhoncus. Duis vel commodo diam. Donec ac risus eu mi auctor dignissim. Quisque sollicitudin tincidunt est, quis sodales est faucibus sed. Pellentesque dui nibh, aliquam pharetra pellentesque nec</p>
+			            </div>
+			            </li>
+			            <li>
+			              <img src="img/templatemo_slide_1.png" alt="slide 3"/>
+			              <div class="flex-caption-bac">
+			              <p class="flex-caption">1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit varius rhoncus. Duis vel commodo diam. Donec ac risus eu mi auctor dignissim. Quisque sollicitudin tincidunt est, quis sodales est faucibus sed. Pellentesque dui nibh, aliquam pharetra pellentesque nec</p>
+			            </div>
+			            </li>
+			          </ul>
+			        </div>            
+			      </div>
+			    </div>
+			  </div>
+			</div> <!-- closed container_slider -->
+
+			  <!-- JavaScripts -->
+			  <script src="js/jquery.min.js"></script>
+			  <script src="bootstrap/js/bootstrap.min.js"></script>
+			  <script src="js/jquery.singlePageNav.js"></script>
+			  <script src="js/templatemo_custom.js"></script>
+			  <script defer src="slider/jquery.flexslider.js"></script>
+			  
+			  <script type="text/javascript">
+
+			    $(window).load(function(){
+			      $('.flexslider').flexslider({
+			        animation: "slide",
+			        start: function(slider){
+			          $('body').removeClass('loading');
+			          $('.menu').singlePageNav();
+			        }
+			      });
+			    });
+
+			    $('#go-top').click(function(event) {
+			      event.preventDefault();
+			      jQuery('html, body').animate({scrollTop: 0}, 1000);
+			      return false;
+			    });
+
+			  </script>
+		</div> <!-- closed block_slider -->
+
+		<div id="block_content">
+			<div class="top_content_bac"></div>
+			<div class="content">
+				<div class="container_web_development">
+					<div class="block_web_development">
+						<h1>Web development</h1>
+						<h2><i></i> Sed congue, dui vel tristique mollis...</h2>
+						<p><img alt="City" src="img/city.png">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+						Donec quam felis, ultricies nec, pellentesque eu, pretium </p>
+
+						<a href="#" title="Read more">Read more »</a>
+					</div> <!-- closed block_web_development -->
+				</div> <!-- closed container_web_development -->
+
+				<div class="container_project">
+					<div class="block_project">
+						<h1>Project management</h1>
+						<h2><i></i>Sed congue, dui vel tristique mollis...</h2>
+						<p><img alt="Taxi" src="img/taxi.png">Duis porta quam et neque gravida vulputate dictum mi varius. Vestibulum fermentum iaculis felis, vitae scelerisque libero rutrum ac.
+						Vestibulum fermentum iaculis felis, vitae scelerisque libero rutrum ac.Aliquam erat volutpat. Integer pretium sem id arcu dictum id vulputate.</p>
+
+						<a href="#" title="Read more">Read more »</a>
+					</div> <!-- closed block_project -->
+				</div> <!-- closed container_project -->
+
+				<div class="container_quality">
+					<div class="block_quality">
+						<h1>Quality support</h1>
+						<h2><i></i>Sed congue, dui vel tristique mollis...</h2>
+						<p><img alt="Night_city" src="img/night_city.png">Aliquam erat volutpat. Integer pretium sem id arcu dictum id vulputate elit vulputate. 
+						Duis porta quam et neque gravida vulputate dictum mi varius. Vestibulum Vestibulum fermentum iaculis felis, vitae scelerisque libero rutrum ac.</p>
+
+						<a href="#" title="Read more">Read more »</a>
+					</div> <!-- closed block_quality -->
+				</div> <!-- closed container_quality -->
+
+			</div> <!-- closed content -->
+			<div class="bottom_content_bac"></div>
+		</div> <!-- closed block_content -->
+
+		<div id="block_footer">
+			<div class="footer"> 
+				<div class="contribute">
+					<h1>CONTRIBUTE TO OUR SITE!</h1>
+					<div>
+						<p><i class="tutorials_bac"></i><strong>If you want to contribute tutorials</strong>, news or other stuff please contact us.</p>
+
+						<p><i class="consectetur_bac"></i><strong>Consectetur adipisicing elit.</strong> Sed do eiusmod tempor incididunt ut labore.</p>
+
+						<p><i class="valid_bac"></i><strong>This site uses valid HTML and CSS. </strong> All content Copyright © 2010 Expose.</p>
+					</div>
+				</div> <!-- closed contribute -->
+
+				<div class="categories">
+					<h1>CATEGORIES</h1>
+					<ul>
+						<li><a href="#" title="Network News">Network News</a></li>
+						<li><a href="#" title="Web Design & Development">Web Design & Development</a></li>
+						<li><a href="#" title="Adobe Creative Suite 4">Adobe Creative Suite 4</a></li>
+						<li><a href="#" title="Dreamweaver CS4">Dreamweaver CS4</a></li>
+						<li><a href="#" title="jQuery - Write less do more">jQuery - Write less do more</a></li>
+					</ul>
+				</div> <!-- closed categories -->
+
+				<div class="flickr">
+					<h1>FLICKR GALLERY</h1>
+					<ul>
+						<li class="bike"><a  href="#" title="bike"></a></li>
+						<li class="products"><a  href="#" title="products"></a></li>
+						<li class="child"><a href="#" title="child"></a></li>
+						<li class="fish"><a  href="#" title="fish"></a></li>
+						<li class="house"><a  href="#" title="house"></a></li>
+						<li class="friendship"><a  href="#" title="friendship"></a></li>
+					</ul>
+				</div> <!-- closed flickr -->
+
+				<div class="copyright">
+					<p>© Copyright <span>Template Sold</span> . All Rights Reserved</p>
+				</div> <!-- closed copyright -->
+			</div> <!-- closed footer -->
+		</div> <!-- closed block_footer -->
+	</div> <!-- closed holder -->
+</body>
+</html>
